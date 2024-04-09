@@ -13,6 +13,8 @@ class TodoListServiceProvider extends ServiceProvider {
 
         $this->app->scoped(SomeServiceContract::class, SomeService::class);
 
+        $this->app->scoped(SomeOtherServiceContract::class, SomeOtherServiceContractImpl::class);
+
     }
 
     /**
