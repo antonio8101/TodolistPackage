@@ -11,6 +11,8 @@
     ],
     "require": {},
     "autoload": {
-        "Abruno\\TodoList\\": "src/"
+        "psr-4": {
+            "Abruno\\TodoList\\": "src/"
+        }
     }
 }
