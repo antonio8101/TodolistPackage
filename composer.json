@@ -1,0 +1,16 @@
+{
+    "name": "abruno/todolist",
+    "description": "Just a tryout package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antonio Bruno",
+            "email": "abruno@artiso.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "Abruno\\TodoList\\": "src/"
+    }
+}
